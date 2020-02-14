@@ -1,7 +1,14 @@
 $colorfont: blue;
 $fontsize: 30px;
-
+$colorh2: red;
 body {
   color: $colorfont;
+  font-size: $fontsize;
+}
+h2 {
+  color: $colorh2;
+}
+p {
+  color: $colorh2;
   font-size: $fontsize;
 }
